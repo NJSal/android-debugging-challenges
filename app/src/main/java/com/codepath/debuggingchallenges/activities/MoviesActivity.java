@@ -22,6 +22,7 @@ import okhttp3.Headers;
 public class MoviesActivity extends AppCompatActivity {
 
     private static final String API_KEY = "a07e22bc18f5cb106bfe4cc1f83ad8ed";
+    public static final String TAG = "MoviesActivity";
 
     RecyclerView rvMovies;
     MoviesAdapter adapter;

@@ -22,10 +22,10 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
     private List<Movie> movies;
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        // only needed because we need to set the background color
+        // need to set the background color
         View view;
 
-        // Lookup view for data population
+        // Looking up the view for data populating
         TextView tvName;
         TextView tvRating;
         ImageView ivPoster;
@@ -45,9 +45,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
     }
 
     @Override
-    public int getItemCount() {
-        return 0;
-    }
+    public int getItemCount() { return movies.size(); }       //initially returning 0. need to get total # of movies from json
 
     @NonNull
     @Override

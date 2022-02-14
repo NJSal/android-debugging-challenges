@@ -1,5 +1,5 @@
-### android-debugging-challenges
-- Unit 3 lab
+### Unit 3 lab
+- android-debugging-challenges
 
 ### Milestones 1 - 4:
 - Milestone 1 - What Day Is it

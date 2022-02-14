@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="@string/go"
         android:id="@+id/btnGo"
-        android:onClick="onGoClickz"
+        android:onClick="onGoClick"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 

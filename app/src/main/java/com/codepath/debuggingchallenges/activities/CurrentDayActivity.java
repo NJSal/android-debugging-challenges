@@ -17,10 +17,10 @@ public class CurrentDayActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_current_day);
         tvDay = (TextView) findViewById(R.id.tvDay);
-        tvDay.setText(getDayOfMonth());
+        tvDay.setText("" + getDayOfMonth());        //setText function expected a string but received int initially
     }
 
-    private int getDayOfMonth() {
+    private int getDayOfMonth() {                   //function returns an int
         Calendar cal = Calendar.getInstance();
         return cal.get(Calendar.DAY_OF_MONTH);
     }
